@@ -1,0 +1,21 @@
+/** Meginmál **/
+
+.main {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    gap: var(--vertical-space);
+  
+    width: var(--width-offset);
+    max-width: var(--max-width);
+  }
+
+  /* Opnunartími */
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: var(--spacing);
+}

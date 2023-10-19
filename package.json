@@ -1,0 +1,19 @@
+{
+  "name": "vef1-2023-v5-synilausn-main",
+  "version": "1.0.0",
+  "description": "[Sjá lýsingu á verkefni](https://github.com/vefforritun/vef1-2023-v5).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"sass styles/index.scss styles.css -w\" \"browser-sync start --server --watch\"",
+    "lint": "stylelint \"**/*.scss\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.29.3",
+    "concurrently": "^8.2.2",
+    "sass": "^1.69.4",
+    "stylelint": "^15.11.0",
+    "stylelint-config-sass-guidelines": "^10.0.0"
+  }
+}
